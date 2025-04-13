@@ -1,7 +1,13 @@
-let n = 6;
-let palabra = "Machine, Turn back now";
-let contador = 0;
+let num1= 6
+let num2= 23
 
-for (; contador < n; contador++) {
-    console.log(palabra);
+let resultado=("los numeros entre " + num1 + " y " + num2 + " son: " );
+
+for (let i = num1 +1; i < num2; i++) { 
+   
+    resultado += i + ", ";
+    
+   
+ 
 }
+console.log(resultado);

@@ -28,5 +28,5 @@ let hombremenor = hombres.reduce((menor, persona) => {
 
 console.log ("el hombre con menor edad es: " + hombremenor.nombre + " con " + hombremenor.edad + " años")
 
-let promediohombres = hombres.reduce((suma, persona) => suma + persona.edad, 0) /hombres.length;
-console.log ("el promedio de edad de los hombres es: " + promediohombres);
+let promediomujeres = mujeres.reduce((suma, persona) => suma + persona.edad, 0) /mujeres.length;
+console.log ("el promedio de edad de las mujeres es: " + promediomujeres);
